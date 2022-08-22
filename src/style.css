@@ -1,1 +1,18 @@
 /* styles go here */
+.fieldset {
+  /* margin: auto auto auto; */
+  margin-bottom: 20px;
+}
+
+.form__field {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form__field:last-child {
+  margin-bottom: 0;
+}
+
+[name="time"] {
+  display: inline-flex;
+}
